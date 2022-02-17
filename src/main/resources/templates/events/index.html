@@ -4,6 +4,9 @@
 <body class="container">
 
 <header th:replace="fragments :: header"></header>
+<td>
+    <a th:href="@{/events/edit/{id}(id=${event.id})}">Edit</a>
+</td>
 
 <table class="table table-striped">
     <thead>
