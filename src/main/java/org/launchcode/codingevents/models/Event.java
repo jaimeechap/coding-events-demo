@@ -11,7 +11,6 @@ import java.util.List;
 /**
  * Created by Chris Bay
  */
-@Entity
 public class Event extends AbstractEntity {
 
     @NotBlank(message = "Name is required")
